@@ -1,0 +1,30 @@
+.About {
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(223, 106, 106), rgb(223, 198, 117));
+    min-height: 80vh;
+}
+
+.About-header {
+    background-image: linear-gradient(90deg, rgb(223, 106, 106), rgb(223, 198, 117));
+    display: block;
+    flex-direction: column;
+    padding-top: 100pt;
+    min-height: 30vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+hr {
+    width: 70%;
+}
+
+.body-text {
+    color: white;
+    padding-left: 11vmin;
+    padding-right: 11vmin;
+    font-size: 14pt;
+    text-align: justify;
+    font-family: sans-serif;
+}

@@ -1,0 +1,27 @@
+.Footer-text {
+    font-size: 10pt;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.Page-footer {
+    padding-top: 10px;
+    margin-top: 0;
+    background-image: linear-gradient(90deg, rgb(223, 106, 106), rgb(223, 198, 117), rgb(223, 106, 106));
+    min-height: 45vh;
+    color: white;
+    bottom: 0px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.9);
+}
+
+.instagramIcon {
+    height: 70pt;
+    padding-bottom: 20px;
+}
+
+.instagramIcon:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+    transition: 0.3s;
+    padding-bottom: 15px;
+}

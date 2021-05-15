@@ -1,0 +1,45 @@
+.Article {
+    min-height: 100vh;
+}
+
+.Articles-card-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-self: center;
+}
+
+.Article-cards {
+    display: inline;
+    color: rgb(80, 80, 80);
+    align-self: center;
+    margin: 1vh;
+    flex: 2;
+    border-radius: 10px;
+}
+
+.card-image {
+    height: 150px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .Articles-card-container {
+        flex-direction: column;
+    }
+
+    .Article-cards {
+        display: block;
+    }
+}
+
+.Article-header {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}

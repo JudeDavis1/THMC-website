@@ -1,0 +1,113 @@
+.Home {
+    background-image: linear-gradient(90deg, rgb(223, 106, 106), rgb(223, 198, 117));
+    min-height: 80vh;
+}
+
+.Home-header {
+    background-image: linear-gradient(90deg, rgb(223, 106, 106), rgb(223, 198, 117));
+    display: block;
+    flex-direction: column;
+    padding-top: 100pt;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.top-text {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    margin-left: 17%;
+    margin-right: 15%;
+    font-size: 2.5vh;
+}
+
+.Featured-card-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Featured-header {
+    margin-left: 15%;
+}
+
+.Topics-card-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cards {
+    display: inline;
+    color: rgb(80, 80, 80);
+    border-radius: 20px;
+    margin: 1vh;
+    box-shadow: 0 0 10px black;
+    font-size: 15px;
+    flex: 3;
+    margin-bottom: 10px;
+}
+
+.h-scat {
+    height: 7vh;
+}
+
+.fffs {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cards {
+        margin: 0.5vh;
+    }
+
+    .Featured-card-container {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    .Featured-header {
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .Home-header {
+        font-size: 1px;
+    }
+
+    .scatters {
+        display: inline;
+        height: 70px;
+    }
+
+    .cards {
+        font-size: 13px;
+        margin: 0.5vh;
+    }
+}
+
+@media only screen and (max-width: 506px) {
+    .scatters {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 506px) {
+    .Featured-card-container {
+        flex-direction: column;
+    }
+    
+    .cards {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
